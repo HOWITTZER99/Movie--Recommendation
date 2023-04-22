@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     p {
-        background-image: url('movie.png');
+        background-image: url('https://miro.medium.com/v2/resize:fit:1400/format:webp/1*8y9sCjaxFmAzEiVEzw3YoQ.jpeg');
     }
     </style>
     """,
