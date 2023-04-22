@@ -5,6 +5,14 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 
+
+st.set_page_config(
+    page_title="Movie Recommender",
+    page_icon=":movie_camera:",
+    layout="wide",
+    page_bg_image="movie.png"
+)
+
 with open('movie.json', 'r') as f:
     movie_dict = json.load(f)
 movies = pd.DataFrame(movie_dict)
