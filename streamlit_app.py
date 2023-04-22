@@ -5,6 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
+
 # Set page configuration
 st.set_page_config(
     page_title="Movie Recommender created by Parth Kulkarni",
