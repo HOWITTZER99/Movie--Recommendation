@@ -3,17 +3,17 @@ import pandas as pd
 import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import streamlit.components.v1 as components
+import streamlit as st
 
-# Set the page configuration
+# Set page configuration
 st.set_page_config(
     page_title="Movie Recommender created by Parth Kulkarni",
-    page_icon="🎥",
+    page_icon=":movie_camera:",
     layout="wide",
     initial_sidebar_state="auto",
-    background_color="white",
+    background_color="#f5f5f5",
     background_image="movie.png",
-    )
+)
 
 # Add a heading
 st.title("Movie Recommender created by Parth Kulkarni")
