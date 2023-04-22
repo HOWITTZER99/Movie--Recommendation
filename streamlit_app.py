@@ -7,12 +7,15 @@ from sklearn.metrics.pairwise import cosine_similarity
 import json
 
 
-st.set_page_config(
-    page_title="Movie Recommender",
-    page_icon=":movie_camera:",
-    layout="wide",
-    page_bg_image="movie.png"
-)
+st.markdown(
+   f”””
+   <style>
+   p {
+   background-image: url(‘movie.png’);
+   }
+   </style>
+   ”””,
+   unsafe_allow_html=True)
 
 with open('movie.json', 'r') as f:
     movie_dict = json.load(f)
