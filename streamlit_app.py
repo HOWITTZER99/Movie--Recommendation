@@ -4,6 +4,11 @@ import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
+import streamlit.components.v1 as components
+
+with open("Templates/index.html", "r") as f:
+    html_code = f.read()
+components.html(html_code)
 
 with open('movie.json', 'r') as f:
     movie_dict = json.load(f)
