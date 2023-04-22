@@ -8,15 +8,15 @@ import json
 
 
 st.markdown(
-   f”””
-   <style>
-   p {
-   background-image: url(‘movie.png’);
-   }
-   </style>
-   ”””,
-   unsafe_allow_html=True)
-
+    """
+    <style>
+    p {
+        background-image: url('movie.png');
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 with open('movie.json', 'r') as f:
     movie_dict = json.load(f)
 movies = pd.DataFrame(movie_dict)
