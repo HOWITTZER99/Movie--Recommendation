@@ -5,22 +5,15 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit.components.v1 as components
 
-# Set the background image
-background_image = "movie.png"
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background: url({background_image});
-        background-size: cover;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Set the theme to light
-st.beta_set_theme("light")
+# Set the page configuration
+st.set_page_config(
+    page_title="Movie Recommender created by Parth Kulkarni",
+    page_icon="🎥",
+    layout="wide",
+    initial_sidebar_state="auto",
+    background_color="white",
+    background_image="movie.png",
+    )
 
 # Add a heading
 st.title("Movie Recommender created by Parth Kulkarni")
