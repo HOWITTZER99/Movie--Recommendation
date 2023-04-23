@@ -1,7 +1,7 @@
 # Recommendation-System
 
  Test My Application:
- 
+ You can enter any movie from TMDB 5000 dataset from kaggle or you can enter for eg. 'Avatar' or 'Predator'
  streamlitt deployment:
 https://howittzer99-movie--recommendation-streamlit-app-embhj7.streamlit.app/
  
