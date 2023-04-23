@@ -36,6 +36,9 @@ The javascript code in notfound.html is executed when the user entered an invali
  Visit https://localhost in your web browser to confirm that the application is running correctly.
 
 ## Setup locally without dockers
+
+download this repository
+
 activate environment and install requirements (windows):
 ```
 python -m venv venv
