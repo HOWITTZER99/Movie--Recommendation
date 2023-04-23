@@ -3,7 +3,7 @@
  Test My Application:
  
  streamlitt deployment:
- https://howittzer99-movie--recommendation-my-app-2mzzv6.streamlit.app/
+https://howittzer99-movie--recommendation-streamlit-app-embhj7.streamlit.app/
  
 This machine learning project is a Flask Web Application that uses collaborative item-to-item filtering to recommend suitable movies based on user’s rating of a previously watched movie.
 
