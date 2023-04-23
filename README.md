@@ -1,4 +1,10 @@
 # Recommendation-System
+
+ Test My Application:
+ 
+ streamlitt deployment:
+ https://howittzer99-movie--recommendation-my-app-2mzzv6.streamlit.app/
+ 
 This machine learning project is a Flask Web Application that uses collaborative item-to-item filtering to recommend suitable movies based on user’s rating of a previously watched movie.
 
 ![image](https://repository-images.githubusercontent.com/275336521/20d38e00-6634-11eb-9d1f-6a5232d0f84f)
@@ -19,10 +25,6 @@ The python code in app.py will generate a list of movie recommendations provided
 ### Javascript Code
 The javascript code in notfound.html is executed when the user entered an invalid movie name. This set of code will return movie titles that are similar to the input that the user has entered, if applicable. The entered data will be checked against all existing movie names to find the most similar movie names. Since this snippet of code doesn't use any packages, a dictionary was created to store the terms for vectorising purposes and several functions were also created to compute the TF-IDF and Cosine Similarity values.
 
- Test My Application:
- 
- streamlitt deployment:
- https://howittzer99-movie--recommendation-my-app-2mzzv6.streamlit.app/
  
  run locally using dockers:
  ```
