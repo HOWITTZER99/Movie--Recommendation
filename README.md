@@ -1,7 +1,7 @@
 # Recommendation-System
 This machine learning project is a Flask Web Application that uses collaborative item-to-item filtering to recommend suitable movies based on user’s rating of a previously watched movie.
 
-![image]([https://user-images.githubusercontent.com/65379600/129465404-790cbc28-ee78-4c2f-85c8-e40f82ac72d6.png](https://repository-images.githubusercontent.com/275336521/20d38e00-6634-11eb-9d1f-6a5232d0f84f))
+![image](https://repository-images.githubusercontent.com/275336521/20d38e00-6634-11eb-9d1f-6a5232d0f84f)
 
 ## About  
 This Content Based Filtering Movie Recommender is built on a [flask app](https://flask.palletsprojects.com/en/2.0.x/) using Python programming language and JavaScript programming language. Two snippets of code were created using the concept of CB. The first one is in Python programming language using the package “scikit-learn” and the second snippet of code is in JavaScript programming language which uses no packages and operates based on logic. Here, feature extraction methods and distance metrics are utilised to generate recommendations. 
